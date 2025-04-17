@@ -1,6 +1,7 @@
 import streamlit as st
 from data_utils import load_data
 import sys
+import matplotlib.pyplot as plt
 
 sys.path.append(r"D:\PROJECTS\Climate Project\Pages")
 from Pages import data_exploration, model_training, prediction_page
